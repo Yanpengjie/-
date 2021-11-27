@@ -56,7 +56,7 @@ $(function() {
                 layer.msg('登陆成功');
                 // 将token储存到页面中
                 localStorage.setItem('token', res.token);
-                //location.href = 'index.html';
+                location.href = 'index.html';
             }
 
         })
